@@ -785,7 +785,9 @@ a{
   padding: 25px 0px 25px 0px ;
   border-bottom: #333;
 }
-.connect button{
+.connect a{
+  text-decoration: none;
+  color: #000 !important;
   background-color: #fff;
   border: none;
   border-radius: 7.5px;
@@ -793,9 +795,9 @@ a{
   outline: none;
   transition: all ease-in-out 0.3s;
 }
-.connect button:hover{
+.connect a:hover{
   background-color: #000;
-  color: #fff;
+  color: #fff !important;
 }
 .footer{
   padding: 70px 0px 0px 0px ;
@@ -1040,4 +1042,51 @@ a{
   .contact-snips:last-child{
     margin-bottom: 0px !important;
   }
+}
+/*********************************
+
+  SERVICE
+
+**********************************/
+.service{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/7.jpg") !important;
+  background-position: center; 
+  background-size: cover !important;
+  color: #b7b7b7;
+}
+#service{
+  padding-top: 75px;
+  padding-bottom: 75px ;
+  background-color: #e8e8e8;
+}
+#service img{
+  margin-bottom: 25px;
+  border-radius: 7.5px;
+}
+
+.theiaStickySidebar{
+  position: sticky;
+}
+
+.side-bar-list li{
+  margin-top: 7.5px;
+  padding: 7px 15px;
+  list-style-type:none ;
+  width: 100%;
+}
+.side-bar-list li a {
+  text-decoration: none;
+  color: #333;
+}
+.side-bar-list .sidebar-active {
+  background-color: #008a8b;
+  border-radius: 7.5px;
+}
+.side-bar-list .sidebar-active a{
+  color: #b7b7b7;
+}
+.side-bar-list li:hover{
+  background-color: #008a8b;
+  border-radius: 7.5px;
+  color: #b7b7b7 !important;
 }
