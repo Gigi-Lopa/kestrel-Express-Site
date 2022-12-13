@@ -799,6 +799,12 @@ a{
   background-color: #000;
   color: #fff !important;
 }
+@media (max-width: 564px) {
+  .connect a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
 .footer{
   padding: 70px 0px 0px 0px ;
   overflow-x: hidden;
